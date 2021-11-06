@@ -12,11 +12,15 @@ function Movie() {
 
   
   return (
-    <div className="row m-5">
-      {movies.map((movie) => (
-        <MovieCard movie={movie}></MovieCard>
-      ))}
-    </div>
+   <section>
+  <div className="justify-content-between ms-5">
+  <div className="row mt-5">
+  {movies.map((movie) => (
+    <MovieCard movie={movie}></MovieCard>
+  ))}
+</div> 
+</div>
+   </section>
   );
 }
 

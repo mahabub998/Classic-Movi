@@ -4,7 +4,7 @@ import './NoMatch.css';
 function NoMatch() {
     return (
         <div className="text-center mt-5 width_nomatch">
-            <h3>page not found</h3>
+            <h3>page not found 404</h3>
         </div>
     )
 }

@@ -3,7 +3,7 @@ import { Link } from "react-router-dom";
 
 function Navbar() {
   return (
-    <nav class="navbar navbar-expand-lg navbar-light bg-success">
+    <nav class="navbar navbar-expand-lg navbar-light bg-success ">
       <div class="container-fluid">
         <Link class="navbar-brand" to="/">
           Navbar
@@ -32,7 +32,7 @@ function Navbar() {
               </Link>
             </li>
             <li class="nav-item ms-5">
-              <Link class="nav-link active" aria-current="page" to="*">
+              <Link class="nav-link active" aria-current="page" to="/login">
                 login
               </Link>
             </li>
