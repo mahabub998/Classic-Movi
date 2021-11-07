@@ -1,6 +1,5 @@
 Live Link: <a>https://movie-blockbuster-38df0.web.app/</a>
-usges:HTML,CSS,BOOTSTRAPH,JAVASCRIPT,REACT JS AND FIREBASE
-
+<h2>usges:HTML,CSS,BOOTSTRAPH,JAVASCRIPT,REACT JS AND FIREBASE</h2>
 This project was bootstrapped with [Create React App](https://github.com/facebook/create-react-app).
 
 ## Available Scripts
