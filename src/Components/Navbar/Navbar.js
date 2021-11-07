@@ -1,13 +1,19 @@
 import React from "react";
 import { Link } from "react-router-dom";
+import moviLogo from "../../image/moviLogo.jpg";
+
+import './Navbar.css';
+
+<i class="fab fa-facebook"></i>
 
 function Navbar() {
   return (
     <nav class="navbar navbar-expand-lg navbar-light bg-success ">
-      <div class="container-fluid">
-        <Link class="navbar-brand" to="/">
-          Navbar
-        </Link>
+    <div div className="container">
+    <div className="nav-logo d-flex ">
+      <img className="img-responsive rounded  imageHandel" src={moviLogo} alt="" />
+      <span className="ms-2 mt-3">Movie Star</span>
+    </div>
         <button
           class="navbar-toggler"
           type="button"
